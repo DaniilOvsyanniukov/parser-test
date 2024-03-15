@@ -1,0 +1,13 @@
+{
+  "name": "parser-test",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"cd backend && yarn start\" \"cd frontend && yarn start\"",
+    "stop": "taskkill /F /IM node.exe"
+  }
+}
+
